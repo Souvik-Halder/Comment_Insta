@@ -21,7 +21,8 @@ const CommentPage = () => {
     };
   }, [array]);
   useEffect(() => {
-    if (array.length >= 52) {
+    console.log(array.length);
+    if (array.length >= 50) {
       setShowText(true);
     }
   }, [array]);
